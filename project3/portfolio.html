@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Developer</title>
+  <meta name="description" content="Portfolio of S. Islam – frontend developer building accessible, resilient web interfaces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css"/>
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="#main" class="brand">
+        <svg viewBox="0 0 72 72" width="38" height="38">
+          <circle cx="36" cy="36" r="32" fill="none" stroke="currentColor" stroke-width="2"/>
+          <text x="36" y="44" text-anchor="middle" font-family="'Space Mono', monospace" font-weight="700" font-size="20" fill="currentColor">SI</text>
+        </svg>
+        <span>
+          <span class="brand-name">S. Islam</span>
+          <span class="brand-role">Frontend Developer</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul id="navList" class="nav-list js-nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn js-theme-toggle" aria-pressed="false" title="Toggle theme">
+          <span class="js-theme-icon" aria-hidden="true">☀</span>
+          <span class="sr-only">Toggle theme</span>
+        </button>
+        <button class="nav-toggle js-nav-toggle" aria-expanded="false" aria-controls="navList">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="hero-badge">✦ Interactive · Accessible · Resilient</p>
+        <h1 class="hero-title">
+          <span class="js-typewriter" id="typewriter"></span><span class="cursor" aria-hidden="true">|</span>
+        </h1>
+        <p class="hero-desc">
+          Frontend developer crafting interfaces that work for everyone — semantic markup, thoughtful interaction, and code that's a pleasure to maintain.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Let's talk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="bg-panel" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="section-eyebrow">About</p>
+         
+          <p>
+            I started with HTML tables and never quite lost the habit of caring about markup. 
+            Today that means semantic structure, accessible components, and interfaces that 
+            respond the moment someone touches them — no dead clicks, no layout shift.
+          </p>
+          <p>
+            Currently working through DecodeLabs' Industrial Training Kit, shipping one 
+            production-scoped project at a time.
+          </p>
+        </div>
+
+        <div class="title-block">
+          <div class="tb-row tb-head">
+            <span>PROFILE — TITLE BLOCK</span>
+            <span>SHEET 01</span>
+          </div>
+          <div class="tb-row">
+            <span class="tb-label">Name</span>
+            <span class="tb-value">S. Islam</span>
+          </div>
+          <div class="tb-row">
+            <span class="tb-label">Role</span>
+            <span class="tb-value">Frontend Developer</span>
+          </div>
+          <div class="tb-row">
+            <span class="tb-label">Location</span>
+            <span class="tb-value">Attock, Pakistan</span>
+          </div>
+          <div class="tb-row">
+            <span class="tb-label">Focus</span>
+            <span class="tb-value">HTML · CSS · JavaScript</span>
+          </div>
+          <div class="tb-row">
+            <span class="tb-label">Status</span>
+            <span class="tb-value"><span class="status-dot"></span>Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+      <div class="container">
+        <div class="skills-wrapper">
+          <p class="section-eyebrow">Skills</p>
+          <h2 class="section-title">Tooling &amp; proficiency</h2>
+          <p class="section-sub">Bars animate once when they come into view.</p>
+
+          <div class="skills-list js-skills-list">
+            <div class="skill-row" data-level="92">
+              <span class="skill-name">HTML &amp; Semantic Markup</span>
+              <span class="skill-track"><span class="skill-fill js-skill-fill"></span></span>
+              <span class="skill-pct js-skill-pct">0%</span>
+            </div>
+            <div class="skill-row" data-level="85">
+              <span class="skill-name">CSS &amp; Responsive Layout</span>
+              <span class="skill-track"><span class="skill-fill js-skill-fill"></span></span>
+              <span class="skill-pct js-skill-pct">0%</span>
+            </div>
+            <div class="skill-row" data-level="78">
+              <span class="skill-name">JavaScript / DOM</span>
+              <span class="skill-track"><span class="skill-fill js-skill-fill"></span></span>
+              <span class="skill-pct js-skill-pct">0%</span>
+            </div>
+            <div class="skill-row" data-level="65">
+              <span class="skill-name">Accessibility (WCAG)</span>
+              <span class="skill-track"><span class="skill-fill js-skill-fill"></span></span>
+              <span class="skill-pct js-skill-pct">0%</span>
+            </div>
+            <div class="skill-row" data-level="58">
+              <span class="skill-name">Git &amp; Version Control</span>
+              <span class="skill-track"><span class="skill-fill js-skill-fill"></span></span>
+              <span class="skill-pct js-skill-pct">0%</span>
+            </div>
+          </div>
+
+          <button class="btn btn-ghost js-remeasure" type="button">↻ Re-measure</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="bg-panel" id="projects">
+      <div class="container">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">Selected builds</h2>
+        <p class="section-sub">Source repositories hosted on GitHub detailing internship development milestones.</p>
+
+        <!-- Removed filter chips as they are no longer required for two projects -->
+        <div class="project-grid js-project-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <p class="section-eyebrow">Contact</p>
+          <h2 class="section-title">Let's build something</h2>
+          <p class="section-sub">Fill in the form — validation runs client-side, right here in the browser.</p>
+
+          <form class="contact-form js-contact-form" novalidate>
+            <div class="form-field">
+              <label for="nameInput">Name</label>
+              <input type="text" id="nameInput" name="name" autocomplete="name" placeholder="Your name">
+              <span class="field-error js-error" data-for="nameInput"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="emailInput">Email</label>
+              <input type="email" id="emailInput" name="email" autocomplete="email" placeholder="you@example.com">
+              <span class="field-error js-error" data-for="emailInput"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="messageInput">Project details</label>
+              <textarea id="messageInput" name="message" rows="4" placeholder="Tell me about your project..."></textarea>
+              <span class="field-error js-error" data-for="messageInput"></span>
+              <span class="char-count js-char-count">0 / 400</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status js-form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast js-toast" role="status" aria-live="polite"></div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#main" class="brand">
+        <svg viewBox="0 0 72 72" width="28" height="28">
+          <circle cx="36" cy="36" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+          <text x="36" y="43" text-anchor="middle" font-family="'Space Mono', monospace" font-weight="700" font-size="18" fill="currentColor">SI</text>
+        </svg>
+        <span class="brand-name" style="font-size:0.9rem;">S. Islam</span>
+      </a>
+      <p>&copy; 2026 S. Islam ; DecodeLabs Frontend Project</p>
+      <button class="back-top js-back-top" type="button">Back to top ↑</button>
+    </div>
+  </footer>
+
+</body>
+</html>

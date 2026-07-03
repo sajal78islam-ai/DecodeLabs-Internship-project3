@@ -55,15 +55,7 @@ const PROJECTS = [
     title: 'decode lab project3',
     stack: ['HTML', 'CSS', 'JavaScript', 'Responsive UI'],
     code: 'https://github.com/sajal78islam-ai/DecodeLabs-Internship-project3'
-  },
-   {
-    id: 'p4',
-    tag: '04',
-    category: 'internship',
-    title: 'decode lab project4',
-    stack: ['HTML', 'CSS', 'JavaScript', 'Responsive UI'],
-    code: 'https://github.com/sajal78islam-ai/DecodeLabs-Internship-project4'
-  } 
+  }
 ];
 
 const CAT_LABEL = {

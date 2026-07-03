@@ -26,6 +26,17 @@ The interactive dashboard pulls directly from your target GitHub repository mile
    * `portfolio.css`.
    * `portfolio.js`.
 3. Open `index.html` directly inside your favorite web browser or run it with a development tool extension like **Live Server**.
-   * `portfolio.css`[cite: 2]
-   * `portfolio.js`[cite: 2]
-3. Open `index.html` directly inside your favorite web browser or run it with a development tool extension like **Live Server**.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

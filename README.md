@@ -13,10 +13,10 @@ A responsive, accessible, and high-performance single-page portfolio website sho
 ## 📂 Featured Project Milestones
 
 The interactive dashboard pulls directly from your target GitHub repository milestones:
-1. **DecodeLabs Project 1:** Core HTML & CSS fundamental layout structure.
-2. **DecodeLabs Project 2:** Introduction to core JavaScript workflows and DOM manipulations.
-3. **DecodeLabs Project 3:** Fully responsive cross-device UI implementation.
-4. **DecodeLabs Project 4:** Advanced input form handling and real-time validation layers.
+1. **DecodeLabs Project 1:** 
+2. **DecodeLabs Project 2:** 
+3. **DecodeLabs Project 3:** 
+4. **DecodeLabs Project 4:**
 
 ## 📦 How to Run Locally
 

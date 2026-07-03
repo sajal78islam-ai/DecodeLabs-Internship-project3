@@ -13,11 +13,12 @@ A responsive, accessible, and high-performance single-page portfolio website sho
 ## 📂 Featured Project Milestones
 
 The interactive dashboard pulls directly from your target GitHub repository milestones:
-1. **DecodeLabs Project 1:** 
-2. **DecodeLabs Project 2:** 
-3. **DecodeLabs Project 3:** 
-4. **DecodeLabs Project 4:**
-
+1. **DecodeLabs Project 1:** EduFlow – Student LMS Portal
+A comprehensive student learning management dashboard built with semantic HTML5 and professional CSS architecture. It features a sticky header, dynamic status cards, a responsive courses grid with custom progress tracking, and full BEM methodology layout compliance.
+2. **DecodeLabs Project 2:** Savory – Restaurant Website
+A modern, mobile-first restaurant web platform utilizing fluid responsive typography , CSS grid/flexbox custom properties, and vanilla JavaScript. It includes an animated hamburger menu, asset performance enhancements (lazy-loading/WebP), and client-side contact actions.
+3. **DecodeLabs Project 3:** Frontend Developer Portfolio
+This exact high-performance, single-page professional workspace. It integrates a vanilla JS typewriter engine, scroll-triggered interactive skill tracking bars, structural theme customization variables (Light/Dark mode switcher), and automated project card template injection.
 ## 📦 How to Run Locally
 
 1. Clone this repository to your machine.
